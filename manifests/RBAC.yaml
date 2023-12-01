@@ -16,7 +16,7 @@ metadata:
   namespace: default
 subjects:
 - kind: User
-  name: eks-access 
+  name: system:node:ip-172-31-0-126.ap-southeast-2.compute.internal
   apiGroup: rbac.authorization.k8s.io
 roleRef:
   kind: Role
